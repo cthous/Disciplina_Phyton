@@ -24,4 +24,10 @@ Identação: Usar 4 espaços por nível de identação.
            colchetes e chaves, ou usando uma indentação suspensa.
 
 Comentários: Comentários são uma ótima ferramenta para não se 'perder' na leitura do código.
-             Para tal recomenda-se que sejam simples e diretos
+             Para tal recomenda-se que sejam simples e diretos, nada muito longo porque pode atrapalhar
+             Um comentário na mesma linha de um código deve estar ao menos dois espaços de distância. Começar com 1 # e um espaço.
+
+Nomes: Há várias maneiras de nomear uma variável e um padrão a se seguir ao fazer
+       Pode usar apenas um caractere desde que seja distinguível de numerais como l que pode ser confundido por 1 ou O e 0
+       Se a variável for composta por duas palavras pode-se usar _ ou colocar letra maiúscula Na Inicial De Cada Palavra.
+       Mas não misture os dois
