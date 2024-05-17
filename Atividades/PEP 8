@@ -1,0 +1,27 @@
+PEP 8
+
+O PEP 8 é um conjunto de recomendações sobre como organizar estruturalmente seu código em Python,
+deixando-o padronizado com o de outros programadores (ou usuários) e fácil de compreender, seja para terceiros ou 
+para o próprio autor do código caso precise voltar após um certo tempo.
+
+O documento aborda conteúdos como identação, quantidade de caracteres por linha, imports, nomenclatura para variáveis,
+dentre outros, que tornarão seu código legível e limpo.
+
+Import: Osimports ocuparão o topo do código e apenas um import por linha.
+        Dessa forma fica mais fácil de saber quais pacotes são necessários importar para rodar o código.
+
+Acentuação: Usa-e vírgulas logo após um caractere. Isolar a , ; : entre dois espaços não é de bom tom.
+            O mesmo vale para espaços desnecessários como dentro de parênteses, colchetes ou chaves
+            ex:[ 1 ]; { eggs: 2 } ); print(x , y) ; x , y = y , x
+
+Caracteres: Falando em caracteres, o PEP 8 recomenda que uma linha contenha no máximo 79 caracteres. Dessa forma a leitrua fica melhor estruturada, sem rolagem horizontal tirando parte do código da tela.
+(viu o que eu fiz né?!)
+Importante também não quebrar a linha antes de um operador binário pois pode deixar a leitura confusa
+O PEP 8 também indica utilizar apenas um tipo de aspas, simples ou dupla.
+
+Identação: Usar 4 espaços por nível de identação. 
+           As linhas de continuação devem alinhar os elementos quebrados verticalmente usando a junção implícita de linhas do Python dentro de parênteses,
+           colchetes e chaves, ou usando uma indentação suspensa.
+
+Comentários: Comentários são uma ótima ferramenta para não se 'perder' na leitura do código.
+             Para tal recomenda-se que sejam simples e diretos
